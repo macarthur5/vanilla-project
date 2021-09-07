@@ -6,8 +6,8 @@
     "rootDir": "src",
     "moduleResolution": "node",
     "module": "esnext",
-    "declaration": true,
-    "inlineSourceMap": true,
+    "declaration": false,
+    "inlineSourceMap": false,
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "strict": true,
@@ -26,9 +26,7 @@
     "listFiles": false,
     "pretty": true,
     "lib": ["es2017", "dom"],
-    "types": ["node"],
-    "typeRoots": ["node_modules/@types", "src/types"]
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/components/app.ts"],
   "compileOnSave": false
 }
