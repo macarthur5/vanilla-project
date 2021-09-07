@@ -27,6 +27,6 @@
     "pretty": true,
     "lib": ["es2017", "dom"],
   },
-  "include": ["src/components/app.ts"],
+  "include": ["./src/components/app.ts"],
   "compileOnSave": false
 }

@@ -1,0 +1,21 @@
+{
+  "name": "vanilla-project",
+  "version": "1.0.0",
+  "description": "A vanilla project",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -r -f build && rm -f tsconfig.tsbuildinfo",
+    "build": "yarn clean && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macarthur5/vanilla-project.git"
+  },
+  "author": "Mac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macarthur5/vanilla-project/issues"
+  },
+  "homepage": "https://github.com/macarthur5/vanilla-project#readme"
+}

@@ -1,5 +1,5 @@
-import Component from "../lib/Component";
-import dom from "../lib/dom";
+import Component from "./../lib/Component";
+import dom from "./../lib/dom";
 import Note from "./note";
 import Notes from "./notes-list";
 

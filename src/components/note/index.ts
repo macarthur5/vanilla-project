@@ -1,4 +1,4 @@
-import Component from "../../lib/Component";
+import Component from "./../../lib/Component";
 import dom from "./../../lib/dom";
 
 class Note extends Component {

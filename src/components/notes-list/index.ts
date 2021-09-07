@@ -1,6 +1,6 @@
-import Component from "../../lib/Component";
-import dom from "../../lib/dom";
-import Note from "../note";
+import Component from "./../../lib/Component";
+import dom from "./../../lib/dom";
+import Note from "./../note";
 
 class Notes extends Component {
   private notes: Note[] = [];
