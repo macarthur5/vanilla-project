@@ -57,5 +57,6 @@ const app = new App(
 );
 
 app.setContainer(document.querySelector("#container"));
+app.render();
 
 export default App;
