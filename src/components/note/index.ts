@@ -1,5 +1,5 @@
-import Component from "./../../lib/Component";
-import dom from "./../../lib/dom";
+import Component from "./../../lib/Component.js";
+import dom from "./../../lib/dom.js";
 
 class Note extends Component {
   private id: number;

@@ -1,7 +1,7 @@
-import Component from "./../lib/Component";
-import dom from "./../lib/dom";
-import Note from "./note";
-import Notes from "./notes-list";
+import Component from "./../lib/Component.js";
+import dom from "./../lib/dom.js";
+import Note from "./note/index.js";
+import Notes from "./notes-list/index.js";
 
 class App extends Component {
   private list: Notes | null = null;
